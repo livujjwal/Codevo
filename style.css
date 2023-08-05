@@ -8,8 +8,11 @@
 }
 nav {
   font-family: 'Rubik', sans-serif;
-  top: 0px;
-  position: sticky;
+  z-index: 10;
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  background-color: #ffff;
 }
 .nav-txt-1 {
   color: #ff5151 !important;
